@@ -622,7 +622,7 @@ svg {
   margin-left: 30px; 
   }
   nav {
-    height: 6%;
+    height: 7%;
   }
   nav ul {
     display: none;
@@ -669,7 +669,7 @@ svg {
   }
   #about img {
     width: 300px;
-    height: 400px;
+    height: 500px;
     margin-top: 20px;
   }
   #about > div:first-child {
