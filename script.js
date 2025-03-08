@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	const observer = new IntersectionObserver((entries) => {
 	entries.forEach(entry => {
-	  if (entry.isIntersecting) {
-	  benefitsVideo.play();
-	  } else {
-	  benefitsVideo.pause();
-	  }
+      if (entry.isIntersecting) {
+      if (!/Mobi|Android/i.test(navigator.userAgent)) {
+        benefitsVideo.play();
+      }
+      } else {
+      benefitsVideo.pause();
+      }
 	});
 	}, { threshold: 0.5 });
 
