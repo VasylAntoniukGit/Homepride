@@ -548,6 +548,11 @@ svg {
   }
 
   header {
+    background-position: center !important;
+    background-repeat: repeat !important;
+    /* background-image: url("img/hero-bg.png") !important; */
+    background-size: cover !important;
+    background-attachment: scroll !important;
     flex-direction: column;
     padding: 20px;
     height: 90vh !important;
@@ -585,6 +590,11 @@ svg {
   }
   #services {
     gap: 20px;
+    background-position: center !important;
+    background-repeat: repeat !important;
+    /* background-image: url("img/hero-bg.png") !important; */
+    background-size: cover !important;
+    background-attachment: scroll !important;
   }
   #services ul {
     flex-direction: column;
@@ -644,6 +654,11 @@ svg {
   }
 
   header {
+    background-position: center !important;
+    background-repeat: repeat !important;
+    /* background-image: url("img/hero-bg.png") !important; */
+    background-size: cover !important;
+    background-attachment: scroll !important;
     flex-direction: column;
     height: 90vh;
     align-items: center;
@@ -683,6 +698,11 @@ svg {
   }
   #services {
     gap: 20px;
+    background-position: center !important;
+    background-repeat: repeat !important;
+    /* background-image: url("img/hero-bg.png") !important; */
+    background-size: cover !important;
+    background-attachment: scroll !important;
   }
   #services ul {
     flex-direction: column;
