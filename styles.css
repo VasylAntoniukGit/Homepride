@@ -362,8 +362,11 @@ svg {
   height: 250px;
   align-items: center;
   justify-content: center;
+  
 }
-
+#services ul li img{
+  margin-bottom: 20px;
+}
 #benefits ul{
   list-style: none;
   display: flex;
@@ -647,7 +650,9 @@ svg {
   nav ul.active {
     display: flex;
   }
-
+  .closeNav{
+    display: none;
+  }
   nav ul li {
     text-align: center;
     margin: 10px 0;
